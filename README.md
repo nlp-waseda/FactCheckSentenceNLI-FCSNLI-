@@ -1,0 +1,2 @@
+# FactCheckSentenceNLI-FCSNLI-
+FactCheckSentenceNLIデータセット 
