@@ -13,8 +13,17 @@
 1	contradiction	茶色 の ドレス を 着た 女性 が ベンチ に 座って い ます 。	女性 が 畑 で 踊って い ます 。
 ```
  
- ```train/component```ディレクトリには```fcsnli_train.tsv```の構成要素となっている3つのデータセットをそれぞれ用意しています。
- 詳細は参考文献をご確認ください。
+ ```train/component```ディレクトリに```fcsnli_train.tsv```の構成要素となっている3つのデータセットをそれぞれ用意しています。
+ 適宜m```merge_training_dataset.py```などを活用して結合してご利用ください。
+ 
+ ### merge_training_dataset.py
+ 使用方法
+ 以下のように結合したいトレーニングデータを指定してご利用ください。3つ以上のファイルでも結合可能です。
+ indexは自動で正規化されます。
+ 
+ (入力するデータは、上述の形式に準じます。)
+ 
+ ```python merge_training_dataset.py [file1.tsv] [file2.tsv]```
  
  
  ## 参考文献
