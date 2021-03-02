@@ -14,9 +14,9 @@
 ```
 本データセットの訓練データは```train```ディレクトリ内の3つのデータセットから構成されます。
 ```jsnli_train.tsv```は[JSNLI](http://nlp.ist.i.kyoto-u.ac.jp/index.php?%E6%97%A5%E6%9C%AC%E8%AA%9ESNLI%28JSNLI%29%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88)
-の訓練データ
-、```unrelated_dataset.tsv```はJSNLIの訓練データと[livedoorニュースコーパス](https://www.rondhuit.com/download.html#ldcc) を基に
-それぞれ構築しています。
+の訓練データを使用しており、
+```unrelated_dataset.tsv```はJSNLIの訓練データと[livedoorニュースコーパス](https://www.rondhuit.com/download.html#ldcc) を基に
+構築しています。
 
 ### 使用方法
 以下のように結合したいトレーニングデータを指定してご利用ください。3つ以上のファイルでも結合可能です。
